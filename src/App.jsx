@@ -33,9 +33,10 @@ function App() {
 
 function Root() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/FrontEnd-Repositorio">
       <App />
     </BrowserRouter>
   );
 }
+
 export default Root;
