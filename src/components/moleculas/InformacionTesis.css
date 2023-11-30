@@ -1,0 +1,46 @@
+.InformacionTesis-container{
+    width: 90%;
+    height: auto;
+    background-color: #035397;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.Information-container img{
+    width: 40%;
+    height: 70%;
+    padding: 20px;
+}
+.Information-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    flex-direction: row;
+}
+.informacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.informacion p {
+    margin: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: justify;
+}
+.Information-container button{
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #FCD900;
+    border: 1px solid black;
+    margin: 40px 10px;
+}
