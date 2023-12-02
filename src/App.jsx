@@ -33,7 +33,7 @@ function App() {
 
 function Root() {
   return (
-    <BrowserRouter basename="/FrontEnd-Repositorio">
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   );
