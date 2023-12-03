@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import { gapi } from "gapi-script";
-import GoogleLogin from "react-google-login";
+// import GoogleLogin from "react-google-login";
 import CustomInput from "../components/moleculas/CustomInput";
 import "./LoginScreen.css";
 import { useLocalStorage } from "../services/useLocalStorage";
@@ -85,13 +85,13 @@ const LoginScreen = () => {
             <button type="submit">Iniciar Sesión</button>
           </form>
           <h4>O también puedes iniciar sesión con:</h4> */}
-          <GoogleLogin
+          {/* <GoogleLogin
             clientId={clientID}
             onSuccess={onSuccess}
             onFailure={onFailure}
             buttonText="Iniciar Sesión con Google"
             cookiePolicy={""}
-          />
+          /> */}
           {loggedIn}
         </div>
       </div>

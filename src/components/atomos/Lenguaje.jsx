@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { Icon } from "@iconify/react";
 import "./Lenguaje.css";
-import { GoogleLogout } from "react-google-login";
+// import { GoogleLogout } from "react-google-login";
 import { dialogoSuperior } from "../../services/sweetalerts";
 
 const Lenguaje = ({ loggedIn, userName }) => {
@@ -43,11 +43,6 @@ const Lenguaje = ({ loggedIn, userName }) => {
           <NavLink className="btn" onClick={handleLogout}>
             Cerrar Sesion
           </NavLink>
-          {/* <GoogleLogout
-            clientId={clientID}
-            buttonText="Cerrar Sesión"
-            onLogoutSuccess={handleLogout}
-          /> */}
         </>
       )}
     </div>
