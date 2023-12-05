@@ -3,6 +3,7 @@ import { useLocalStorage } from "../services/useLocalStorage";
 import "./PerfilScreen.css";
 // import { GoogleLogout } from "react-google-login";
 import VerificacionIngreso from "./VerificacionIngreso";
+import { GoogleLogout } from "react-google-login";
 
 const PerfilScreen = () => {
   const clientID =
@@ -38,11 +39,11 @@ const PerfilScreen = () => {
                 <span>{email}</span>
                 <br />
                 <br />
-                {/* <GoogleLogout
+                <GoogleLogout
                   clientId={clientID}
                   buttonText="Cerrar Sesión"
                   onLogoutSuccess={handleLogout}
-                /> */}
+                />
               </div>
             </div>
           </div>

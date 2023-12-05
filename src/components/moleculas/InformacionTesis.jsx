@@ -24,7 +24,7 @@ const InformacionTesis = () => {
     <div className='InformacionTesis-container'>
         <h1>{data && data.TítuloDelProyecto}</h1>
         <div className='Information-container'>
-            <img src='src/assets/imagen de tesis.png' alt="Portada Tesis" />
+            <img src='images/imagen de tesis.png' alt="Portada Tesis" />
             <div className='informacion'>
               <p>Resumen: {data[0].Resumen}</p> 
               <p>Gestion: {data[0].Gestión}</p>
